@@ -3,12 +3,12 @@ import json
 import datetime
 from datetime import datetime
 import re
-from dock_info import *
+from dock_info_second import *
 import pandas as pd
 # import logging
 
 # logging.getLogger('fast_bitrix24').addHandler(logging.StreamHandler())
-webhook = webhook_3
+webhook = webhook_1
 b = Bitrix(webhook)
 
 # Получение сделки по id
